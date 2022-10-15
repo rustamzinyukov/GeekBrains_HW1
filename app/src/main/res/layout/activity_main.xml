@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/inputNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:capitalize="sentences"
+        android:hint="Введите число"
+        android:textColorHint="#757575" />
+
+    <Button
+        android:id="@+id/buttonForSquare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Возвести в квадрат" />
+
+    <Switch
+        android:id="@+id/switchForResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Показать результат" />
+
+    <CheckBox
+        android:id="@+id/checkBoxForResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Показать результат" />
+
+    <ToggleButton
+        android:id="@+id/toggleButtonForResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Показать результат" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <Button
+        android:id="@+id/transfer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center|center_horizontal"
+        android:onClick="Click"
+        android:text="На вторую страницу" />
+
+
+</LinearLayout>
